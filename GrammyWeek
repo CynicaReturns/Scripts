@@ -1,0 +1,29 @@
+--// Music Awards or something lol \\--
+if game.PlaceId == 8893378293 then
+    --// Library \\--
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+    local Window = Library.CreateLib("Grammy Week - cynica#9999", "DarkTheme")
+    --// Main \\--
+    local Main = Window:NewTab("Main")
+    local MainSection = Main:NewSection("Main")
+    MainSection:NewToggle("Auto Farm Coins", "Auto farms coins", function(v)
+        getgenv().autoFarmCoins = v
+        while wait() do
+            if not getgenv().autoFarmCoins then return end
+            for _, v in pairs(workspace["Air Race"]:GetDescendants()) do
+                if v.Name == "TouchPart" then
+                    v.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+                end
+            end
+        end
+    end)
+    MainSection:NewButton("Collect all Collectables", "Collects all things yes", function()
+        while wait() do
+            for _, v in pairs(game.Workspace.Collectables:GetChildren()) do
+                if v:IsA("BasePart") then
+                    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
+                end
+            end
+        end
+    end)
+end
