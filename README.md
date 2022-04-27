@@ -1,12 +1,10 @@
-# ExploitScripts
-These scripts were all made by cynica#9999 (me)
+# Executor Requirements
+These scripts were all tested on Synapse X
 
-If you use any Code please credit me, will add credits to my next scripts
+If you occure any Errors then you probably using a shitty free Executor, if it doesn't work on your Synapse then ur just retarded cause it's working.
 
-Those scripts were only tested on Synapse X so not my fault if you are using any other executor and its not working
+Thanks for no credits https://robloxscripts.com/ 😶
 
-Also suggest some games in our discord server: https://discord.gg/7aFj9kF7FA
+I will bring out some new Scripts later on, request some on https://robloxscripts.com/
 
-Thanks for using and hopefully credit me :)
-
-- Enjoy the scripts
+Cynica™
