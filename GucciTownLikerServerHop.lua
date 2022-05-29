@@ -14,7 +14,7 @@ if game:IsLoaded() then
         if State == Enum.TeleportState.Started then
             local queueTeleport = syn and syn.queue_on_teleport or queue_on_teleport
             if queueTeleport then
-                queueTeleport("")
+                queueTeleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/cynicamanee/Scripts/main/GucciTownLikerServerHop.lua'))()")
             end
         end
   end)
