@@ -6,7 +6,7 @@ if game:IsLoaded() then
     if v.Name == game:GetService("Players"):FindFirstChild(v) then
       CurPlayer = v
       game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = v.StatuePodium.CFrame
-      task.wait(.2)
+      task.wait(.5)
       fireproximityprompt(v.Part:FindFirstChild("SculpturePrompt_" .. CurPlayer), 0)
     end
   end
