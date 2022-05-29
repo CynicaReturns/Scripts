@@ -1,4 +1,6 @@
 --// Functions
+game:GetService("ReplicatedFirst"):RemoveDefaultLoadingScreen()
+task.wait(5)
 repeat wait() until game:IsLoaded()
 if game:IsLoaded() then
   local CurPlayer
