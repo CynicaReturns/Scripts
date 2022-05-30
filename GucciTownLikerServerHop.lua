@@ -1,3 +1,8 @@
+--[[
+    There is no need to put this in auto execute unless you don't have synapse
+    Cynica
+--]]
+
 --// Functions
 game:GetService("ReplicatedFirst"):RemoveDefaultLoadingScreen()
 task.wait(5)
